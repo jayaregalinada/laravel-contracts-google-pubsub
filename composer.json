@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jag\\Contracts\\GooglePubSub": "src/"
+      "Jag\\Contracts\\GooglePubSub\\": "src/"
     }
   }
 }
