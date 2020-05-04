@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "php": "^7.1"
+    "php": "^7.1",
+    "google/cloud-pubsub": "^1.24"
   },
   "suggest": {
     "jag/laravel-subscriber-google-pubsub": "For Google PubSub Subscriber in Laravel",
