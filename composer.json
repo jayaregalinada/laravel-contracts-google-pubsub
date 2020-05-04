@@ -1,0 +1,24 @@
+{
+  "name": "jag/laravel-contracts-google-pubsub",
+  "description": "Complementary contracts for jag/laravel-broadcaster-google-pubsub and jag/laravel-subscriber-google-pubsub",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jay Are Galinada",
+      "email": "jayaregalinada@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "suggest": {
+    "jag/laravel-subscriber-google-pubsub": "For Google PubSub Subscriber in Laravel",
+    "jag/laravel-broadcaster-google-pubsub": "Implementation of Google PubSub in Laravel Broadcaster"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jag\\Contracts\\GooglePubSub": "src/"
+    }
+  }
+}
